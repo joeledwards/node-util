@@ -1,0 +1,35 @@
+{
+  "name": "@buzuli/util",
+  "version": "1.0.0",
+  "description": "Simple utilities for Node.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "tap ./test/*.test.js"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "lib/**/*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeledwards/node-util.git"
+  },
+  "keywords": [
+    "util",
+    "node",
+    "js"
+  ],
+  "author": "Joel Edwards <joeledwards@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeledwards/node-util/issues"
+  },
+  "homepage": "https://github.com/joeledwards/node-util#readme",
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "tap": "^14.11.0"
+  }
+}
